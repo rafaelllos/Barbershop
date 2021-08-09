@@ -1,0 +1,383 @@
+/* PT Sans Narrow */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+
+
+
+body {
+    margin: 0;
+
+    background-image: url(img/background.jpg);
+}
+
+.container {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+
+
+/* Header */
+.header {
+    height: 60px;
+    background-color: #000000;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav1, .nav2, .nav3, .nav4, .nav5 {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+
+    padding-top: 20px;
+}
+
+.nav6 {
+    padding-left: 360px;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+
+    padding-top: 20px;
+}
+
+/*
+.nav1:hover, .nav2:hover, .nav3:hover, .nav4:hover, .nav5:hover, .nav6:hover {
+    background-color: #242424;
+    width: 100px;
+    height: 60px;
+    transition: 0.2s;
+}
+*/
+
+
+
+/* Index */
+.index {
+    height: 1489px;
+}
+
+.index__logo {
+    width: 371px;
+    height: 155px;
+
+    position: relative;
+    left: 284px;
+    right: 284px;
+    top: 60px;
+    bottom: 0;
+
+}
+
+.column__names {
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 140px;
+}
+
+.column1__name, .column2__name, .column3__name {
+    text-transform: uppercase;
+
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.column1__name span, .column2__name span, .column3__name span {
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-bottom: 20px solid #fff;
+    position: relative;
+    left: 26px;
+}
+
+.column1__name span:after, .column2__name span:after, .column3__name span:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: -20px;
+    top: 59px;
+    border: 20px solid transparent;
+    border-top: 20px solid #fff;
+}
+
+.column__text {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column1__text, .column2__text, .column3__text {
+    padding-top: 80px;
+
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+/* 1. NewsPhotoes */
+.container__newsPhotoes, .container__contactJoin {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+
+    padding-top: 60px;
+}
+
+.newsPhotoes__columns, .contactJoin__columns {
+    width: 940px;
+    height: 400px;
+
+    background-color: #faf7f4;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.new_name, .photoes_name, .contact_name, .join_name {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+
+    text-transform: uppercase;
+
+    padding-top: 30px;
+    padding-left: 70px;
+}
+
+.new1, .new2, .address, .work_time {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+
+    padding-top: 35px;
+    padding-left: 70px;
+
+    text-transform: uppercase;
+}
+
+.new1 span, .new2 span {
+    padding-top: 15px;
+
+    text-transform: none;
+}
+
+.button {
+    margin-top: 35px;
+    margin-left: 40px;
+    margin-right: 10px;
+
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px 48px;
+
+    border: 1px solid #000;
+    background: #000;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.button:hover {
+    background-color: #663d15;
+    transition: 0.2s;
+}
+
+.vertical-line {
+    padding-top: 80px;
+}
+
+.photo {
+    padding-top: 25px;
+    padding-right: 80px;
+}
+
+.photoes_buttons {
+    position: relative;
+    right: 80px;
+}
+
+.join1 {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+
+    padding-top: 35px;
+    padding-right: 90px;
+
+
+    text-transform: uppercase;
+}
+
+
+
+/* 2. Boxes */
+.boxes1 {
+    display: inline-block;
+}
+
+.boxes2 {
+    display: inline-block;
+}
+
+.box1_name, .box2_name, .box3_name, .box4_name {
+    padding-top: 20px;
+
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+
+    text-transform: uppercase;
+}
+
+.box1, .box2, .box3, .box4 {
+    border: 2px solid #000;
+    width: 140px;
+    height: 43px;
+
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #4a4948;
+
+
+}
+
+.box1 span, .box2 span, .box3 span, .box4 span {
+    position: relative;
+    top: 12px;
+    left: 10px;
+}
+
+.button_boxes {
+    margin-top: 20px;
+
+    width: 300px;
+    height: 43px;
+
+    border: 1px solid #000;
+    background: #000;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+
+.button_boxes span {
+    position: relative;
+    top: 13px;
+}
+
+.button_boxes:hover {
+    background-color: #663d15;
+    transition: 0.2s;
+}
+
+
+
+/* Footer */
+.footer {
+    width: 100%;
+    height: 195px;
+    background-color: #222222;
+}
+
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__rightText, .letsFriend_name, .developed_name {
+    padding-top: 65px;
+
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+
+    line-height: 24px;
+}
+
+/*
+.footer__rightText a {
+
+}
+
+.letsFriend_name {
+    padding-top: 65px;
+
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+*/
+
+.letsFriend_images {
+    position: relative;
+    top: 22px;
+    right: 14px;
+}
+
+.html_academy {
+    position: relative;
+    top: 22px;
+    right: 30px;
+
+    border: 1px solid #000;
+    background: #000;
+    width: 140px;
+    height: 43px;
+
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.html_academy span {
+    position: relative;
+    top: 14px;
+    left: 27px;
+}
