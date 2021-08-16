@@ -16,7 +16,7 @@
                 <a href="#" class="nav3">Прайс-лист</a>
                 <a href="shop.html" class="nav4">Магазин</a>
                 <a href="#" class="nav5">Контакты</a>
-                <a href="#" class="nav6">Вход</a>
+                <a href="#" class="nav6"><img class="nav6_login" src="svg/login.svg" alt=""> Вход</a>
             </nav>
 
         </div>
@@ -49,10 +49,10 @@
                             <div class="new1">НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ <br> ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ <br> <span>11 января</span></div>
                             <div class="new2">В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, <br> ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ <br> СТРОЙНЫЕ РЯДЫ <br> <span>18 января</span></div>
 
-                            <a href="#" class="button">ВСЕ НОВОСТИ</a>
+                            <a href="#" class="button__news">ВСЕ НОВОСТИ</a>
                         </div>
 
-                        <div class="vertical-line"><img src="img/vertical-line.jpg" alt=""></div>
+                        <div class="vertical-line1"><img src="img/vertical-line.jpg" alt=""></div>
 
                         <div class="photoes">
                             <div class="photoes_name">Фотогалерея</div>
@@ -60,8 +60,8 @@
                                 <img src="img/newsPhotoes_photo.jpg" alt="">
                             </div>
                             <div class="photoes_buttons">
-                                <a href="#" class="button">Назад</a>
-                                <a href="#" class="button">Вперед</a>
+                                <a href="#" class="button__photoes1">Назад</a>
+                                <a href="#" class="button__photoes2">Вперед</a>
                             </div>
                         </div>
                     </div>
@@ -77,32 +77,43 @@
                                 <div class="address">БАРБЕРШОП «БОРОДИНСКИЙ» <br> АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8 <br> ТЕЛЕФОН: +7 (495) 666-02-66</div>
                                 <div class="work_time">ВРЕМЯ РАБОТЫ: <br> ПН—ПТ: С 10:00 ДО 22:00 <br> СБ—ВС: С 10:00 ДО 19:00</div>
 
-                                <a href="#" class="button">Как проехать</a>
-                                <a href="#" class="button">Обратная связь</a>
-
+                            <div class="button__contacts">
+                                <a href="#" class="button__contact1">Как проехать</a>
+                                <a href="#" class="button__contact2">Обратная связь</a>
+                            </div>
                         </div>
 
-                        <div class="vertical-line"><img src="img/vertical-line.jpg" alt=""></div>
+                        <div class="vertical-line2"><img src="img/vertical-line.jpg" alt=""></div>
 
                         <div class="join">
-                            <div class="join_name">Записаться</div>
+                            <div class="join_name">ЗАПИСАТЬСЯ</div>
                                 <div class="join1">УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ <br> С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</div>
 
                             <div class="boxes1">
-                                <div class="box1_name">ДАТА</div>
-                                <div class="box1"><span>08.10.2017</span></div>
-                                <div class="box2_name">ВРЕМЯ</div>
-                                <div class="box2"><span>10:00</span></div>
+                               <div class="box1">
+                                    <label class="box_label" for="box_date">ДАТА</label>
+                                    <input class="box_input1" type="date" id="box_date">
+                                </div>
+
+                                <div class="box2">
+                                    <label class="box_label" for="box_name">ВАШЕ ИМЯ</label>
+                                    <input class="box_input" type="text" id="box_name">
+                                </div>
                             </div>
 
                             <div class="boxes2">
-                                <div class="box3_name">ВАШЕ ИМЯ</div>
-                                    <div class="box3"><span>Борода</span></div>
-                                <div class="box4_name">ТЕЛЕФОН</div>
-                                    <div class="box4"><span>+7 123 456-78-90</span></div>
+                                <div class="box3">
+                                    <label class="box_label" for="box_time">ВРЕМЯ</label>
+                                    <input class="box_input" type="datetime" id="box_time">
+                                </div>
+
+                                <div class="box3">
+                                    <label class="box_label" for="box_tel">ТЕЛЕФОН</label>
+                                    <input class="box_input" type=tel id="box_tel">
+                                </div>
                             </div>
 
-                            <div class="button_boxes"><span>ОТПРАВИТЬ</span></div>
+                            <a href="" class="button_boxes">ОТПРАВИТЬ</a>
 
                         </div>
                     </div>
